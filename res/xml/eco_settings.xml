@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/eco_settings">
+
+        <CheckBoxPreference
+            android:key="eco_select"
+            android:title="@string/eco_select"
+        />
+
+        <PreferenceScreen
+			android:key="eco_detail"
+            android:title="@string/eco_detail"
+        />
+            
+</PreferenceScreen>
+

@@ -111,6 +111,13 @@
         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
     </header>
 
+    <!-- ECO WAZA -->
+    <header android:title="@string/header_category_eco" />
+    <header
+        android:id="@+id/eco_settings"
+        android:fragment="com.android.settings.EcoWazaSettings"
+        android:icon="@drawable/ic_eco_settings"
+        android:title="@string/eco_settings" />
 
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
